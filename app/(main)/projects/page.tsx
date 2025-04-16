@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import BackToHome from '@/components/BackToHome';
 
 const ProjectCard = ({ title, description, tags, link }: {
   title: string;
@@ -87,6 +88,7 @@ export default function Projects() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
+          <BackToHome />
           <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-4">Mis Proyectos</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Algunos de los trabajos que he desarrollado como profesional:

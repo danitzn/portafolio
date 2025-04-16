@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import BackToHome from '@/components/BackToHome';
 
 const timeline = [
   {
@@ -27,9 +28,9 @@ const timeline = [
     skills: ["Django", "Python", "Full-stack"],
     projects: [
       {
-        name: "TataTraining",
+        name: "TataGym",
         description: "Sistema de gestión para gimnasios",
-        link: "#"
+        link: "https://github.com/danitzn/tatagym"
       }
     ]
   },
@@ -57,6 +58,7 @@ export default function BlogPage() {
       className="min-h-screen px-6 py-12 bg-white text-gray-800"
     >
       <div className="max-w-4xl mx-auto">
+        <BackToHome />
         <motion.div
           initial={{ y: -20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
