@@ -49,7 +49,7 @@ export default function Home() {
           <p><strong>Stack:</strong> Python · Django · FastAPI · SQLite · Azure · Synapse · APIs REST</p>
         </div>
 
-        <Link href="/blog" passHref legacyBehavior>
+        <Link href="/blog">
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

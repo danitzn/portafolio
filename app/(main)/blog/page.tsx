@@ -12,7 +12,7 @@ const timeline = [
     projects: []
   },
   {
-    year: "2020-2021",
+    year: "2020-2022",
     title: "Instructor de SQL",
     company: "Facultad Politécnica UNA (Voluntario)",
     description: "Enseñanza de bases de datos y SQL a estudiantes de ingeniería.",
@@ -20,7 +20,7 @@ const timeline = [
     projects: []
   },
   {
-    year: "2020-Presente",
+    year: "2022-Presente",
     title: "Desarrollador Independiente",
     company: "Proyectos Personales",
     description: "Desarrollo de sistemas como TataTraining y otros proyectos personales.",
@@ -34,7 +34,7 @@ const timeline = [
     ]
   },
   {
-    year: "2023-Presente",
+    year: "2024-Presente",
     title: "Desarrollador & Soporte Técnico",
     company: "Inmo Group S.A.",
     description: "Desarrollo de soluciones internas y soporte técnico avanzado.",
@@ -80,12 +80,12 @@ export default function BlogPage() {
               transition={{ delay: index * 0.1 }}
               className="relative mb-12 pl-12"
             >
-              {/* Punto de la línea */}
+              
               <div className="absolute left-0 w-8 h-8 rounded-full bg-cyan-500 border-4 border-white dark:border-gray-900 flex items-center justify-center">
                 <span className="text-white text-xs font-bold">{index + 1}</span>
               </div>
 
-              {/* Contenido */}
+              
               <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-md border border-gray-100 dark:border-gray-700">
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center">
                   <div>
